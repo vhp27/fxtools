@@ -4,7 +4,7 @@ A modern SaaS platform providing powerful financial calculation tools through an
 
 ## 🚀 Features
 
-- Financial calculation tools powered by cashbackforex.com widgets
+- Financial calculation tools with mordern UI
 - Modern, responsive UI built with Next.js and Tailwind CSS
 - Server-side rendering for optimal performance and SEO
 - Admin dashboard for monitoring and analytics
