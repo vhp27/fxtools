@@ -1,0 +1,28 @@
+# Build configuration
+[build]
+command = "npm run build"
+publish = ".next"
+node_version = "18"
+
+# Environment variables
+[build.environment]
+NODE_VERSION = "18"
+NPM_VERSION = "9"
+
+# Build settings
+[build.processing]
+skip_processing = false
+
+[build.processing.css]
+bundle = true
+minify = true
+
+[build.processing.js]
+bundle = true
+minify = true
+
+[build.processing.html]
+pretty_urls = true
+
+[build.processing.images]
+compress = true
