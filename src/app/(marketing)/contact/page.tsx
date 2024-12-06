@@ -2,11 +2,6 @@
 
 import { useState } from 'react'
 
-export const metadata = {
-  title: 'Contact Us',
-  description: 'Get in touch with the TraderLight team.',
-}
-
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',
