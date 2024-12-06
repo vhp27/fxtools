@@ -1,9 +1,11 @@
 {
   "build": {
-    "command": "npm run build && npx @cloudflare/next-on-pages@1",
-    "output": ".vercel/output/static",
+    "command": "npm install && npm run build",
+    "output": ".next",
     "environment": {
-      "NODE_VERSION": "18"
+      "NODE_VERSION": "18",
+      "NPM_VERSION": "9",
+      "NODE_ENV": "production"
     }
   }
 }

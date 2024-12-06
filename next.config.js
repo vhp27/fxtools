@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['www.cashbackforex.com'],
-    unoptimized: true, // Required for Cloudflare Pages
+    unoptimized: true // Required for Cloudflare Pages
   },
   async headers() {
     return [
@@ -38,7 +36,7 @@ const nextConfig = {
   // Cloudflare Pages specific optimizations
   swcMinify: true,
   poweredByHeader: false,
-  compress: true,
+  compress: true
 }
 
 module.exports = nextConfig
